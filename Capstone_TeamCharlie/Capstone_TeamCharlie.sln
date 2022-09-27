@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products", "..\Products\Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Category", "..\Category\Category.csproj", "{6F129091-311D-46D7-BC5E-86D17F32FDD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "..\Orders\Orders.csproj", "{B5A1A2F6-629E-4EDB-8409-C8BE05E4BB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway", "..\PaymentGateway\PaymentGateway.csproj", "{10CC76DA-6C09-4F26-AC39-22237C89553F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6F129091-311D-46D7-BC5E-86D17F32FDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F129091-311D-46D7-BC5E-86D17F32FDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F129091-311D-46D7-BC5E-86D17F32FDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A1A2F6-629E-4EDB-8409-C8BE05E4BB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A1A2F6-629E-4EDB-8409-C8BE05E4BB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A1A2F6-629E-4EDB-8409-C8BE05E4BB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A1A2F6-629E-4EDB-8409-C8BE05E4BB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CC76DA-6C09-4F26-AC39-22237C89553F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CC76DA-6C09-4F26-AC39-22237C89553F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CC76DA-6C09-4F26-AC39-22237C89553F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CC76DA-6C09-4F26-AC39-22237C89553F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7O/BmaMgqhYnu7v0chEccCZkbGsIkmLApkynE1I9wPXGFwJ5Fvc2P3UzFK6zQ809tG0ZfbsMdscm6dMwXxS2jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\PaymentGateway\\PaymentGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VQ975YZ\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
