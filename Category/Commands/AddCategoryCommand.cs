@@ -5,6 +5,6 @@ namespace Category.Commands
 {
     public class AddCategoryCommand:IRequest<EcomCategory>
     {
-        public string CategoryName{ get; set; }
+        public EcomCategory CategoryName{ get; set; }
     }
 }

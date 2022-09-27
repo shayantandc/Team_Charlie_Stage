@@ -8,7 +8,7 @@ namespace Category.Repository
         EcomCategory getCategoryById(int id);
         IEnumerable<EcomCategory> GetAllCategory();
 
-        EcomCategory AddCategory(string catname);
+        EcomCategory AddCategory(EcomCategory catname);
 
 
 

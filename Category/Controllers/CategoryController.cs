@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Category.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {
@@ -18,18 +18,18 @@ namespace Category.Controllers
         {
             _mediator = mediator;
         }
-        [HttpGet]
+        [HttpGet("GetAllCategory")]
         public async Task<IActionResult> GetAllCategory()
         {
-            return Ok( _mediator.Send(new GetAllCategoryQuery()));
+            return  Ok( _mediator.Send(new GetAllCategoryQuery()));
         }
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> getCategoryById(int id)
         {
             return Ok(_mediator.Send(new GetCategoryByIdQuery() { CategoryId = id }));
         }
-        [HttpPost]
-        public async Task<EcomCategory> AddCategory(string catname)
+        [HttpPost("add")]
+        public async Task<EcomCategory> AddCategory([FromBody] EcomCategory catname)
         {
             return await _mediator.Send(new AddCategoryCommand { CategoryName = catname});
         }

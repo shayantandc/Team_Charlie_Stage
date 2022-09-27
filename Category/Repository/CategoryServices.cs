@@ -13,26 +13,25 @@ namespace Category.Repository
             _data = data;
         }
 
-        public EcomCategory AddCategory(string catname)
+        public EcomCategory AddCategory(EcomCategory cat)
         {
-            var cat = new EcomCategory()
-            {
-                CategoryName = catname,
-            };
             _data.EcomCategory.Add(cat);
             _data.SaveChanges();
             return cat;
         }
 
         public IEnumerable<EcomCategory> GetAllCategory()
-            {
-                return _data.EcomCategory.ToList();
-            }
-
-            public EcomCategory getCategoryById(int id)
-            {
-              return _data.EcomCategory.SingleOrDefault(x => x.CategoryId == id);
-            }
+        {
+            return _data.EcomCategory.ToList();
         }
 
+        public EcomCategory getCategoryById(int id)
+        {
+            return _data.EcomCategory.SingleOrDefault(x => x.CategoryId == id);
+        }
+
+
+
+
     }
+}
