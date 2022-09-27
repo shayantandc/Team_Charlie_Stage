@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Customers\\Customers.csproj": {}
+    "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Customers\\Customers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Customers\\Customers.csproj": {
+    "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Customers\\Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Customers\\Customers.csproj",
+        "projectUniqueName": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Customers\\Customers.csproj",
         "projectName": "Customers",
-        "projectPath": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Customers\\Customers.csproj",
-        "packagesPath": "C:\\Users\\MV422UX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Customers\\obj\\",
+        "projectPath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Customers\\Customers.csproj",
+        "packagesPath": "C:\\Users\\VQ975YZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Customers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MV422UX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VQ975YZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,6 +77,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

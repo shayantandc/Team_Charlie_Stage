@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\MV422UX\\.nuget\\packages\\": {}
+    "C:\\Users\\VQ975YZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Products\\Products.csproj",
+      "projectUniqueName": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Products\\Products.csproj",
       "projectName": "Products",
-      "projectPath": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Products\\Products.csproj",
-      "packagesPath": "C:\\Users\\MV422UX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Products\\obj\\",
+      "projectPath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Products\\Products.csproj",
+      "packagesPath": "C:\\Users\\VQ975YZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Products\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MV422UX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VQ975YZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,6 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.24, 3.1.24]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gufA/rXWMoldiaJIqdeWNjD5fdrKgbL+X9vfRS5KuG/BQC9yKL5SAMhN+jXxeJMjMbUIMhN542x/h8idPmFYKw==",
+  "dgSpecHash": "eClE7GyvcUjtTpi3KUeDYgTs0ANQ91Ol5LDsgL2DZqBo/jE4Omf8D8HwZi9u+0ILZDt4h4W3wtQkQEch4uRJFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MV422UX\\OneDrive - EY\\Desktop\\Capstone\\Products\\Products.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\VQ975YZ\\OneDrive - EY\\Desktop\\Capstone\\Team_Charlie_Stage\\Products\\Products.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VQ975YZ\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
   "logs": []
 }
